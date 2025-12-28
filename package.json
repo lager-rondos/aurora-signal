@@ -1,0 +1,25 @@
+{
+  "__file": "package.json",
+  "name": "aurora-signal",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "@coinbase/wallet-sdk": "latest",
+    "@coinbase/onchainkit": "latest",
+    "viem": "latest",
+
+    "base-smart-wallet": "github:base/smart-wallet",
+    "base-node": "github:base/node",
+    "base-docs": "github:base/docs",
+    "base-web": "github:base/web",
+
+    "coinbase-x402": "github:coinbase/x402",
+    "coinbase-agentkit": "github:coinbase/agentkit"
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "vite": "latest"
+  }
+}
