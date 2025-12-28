@@ -18,7 +18,7 @@ All functionality is strictly read-only.
 
 ## Repository Structure
 
-- **app.aurora-signal.ts**  
+- **app/aurora-signal.ts**  
   Browser-based entry point that connects to Coinbase Wallet and queries Base RPC endpoints.
 
 - **contracts/**  
